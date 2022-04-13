@@ -25,8 +25,6 @@ header{
     grid-area: header;
     border-bottom: 5px white solid;
 }
-/* El unico problema con el header es que quiero bajar un poco mas el logo pero no se como. En cuanto a los botones, me quedaron tal cual queria pero solo justifique con justify content: end */
-
 
 h1{
     font-family: logos;
@@ -34,6 +32,12 @@ h1{
     margin:10px;
     padding: 1px;
     color: white;
+    border-radius: 1px;
+    width: 70px;
+    transition: all .2s;
+}
+h1:hover{
+    transform: scale(1.2);
 }
 .buttons{
     display: flex;
@@ -48,3 +52,4 @@ h1{
     font-family: parrafos;
     font-size: 25px;
 }
+
